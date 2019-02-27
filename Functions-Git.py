@@ -36,7 +36,6 @@ print('\n', x)
 print_number(13)
 print_number(23)
 
-
 # 4.14.4: Name & Age
 # Quentin Sander
 #2.18.19
