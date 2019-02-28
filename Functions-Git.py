@@ -58,3 +58,24 @@ def print_two_number(x, y = 20):
 
 print_two_number(34, 45)
 print_two_number(78)
+
+
+#4.14.6: Print Sum
+#Quentin Sander
+#2.19.19
+
+def print_sum(x, y):
+    print(x + y)
+
+print_sum(46,62)
+
+
+#4.14.7: Print Multiple Times
+#Quentin Sander
+#2.19.19
+
+def print_multiple_times(string, times):
+    for i in range(times):
+        print(string)
+
+print_multiple_times('Hey there Computer Scientist', 7777777777777)
