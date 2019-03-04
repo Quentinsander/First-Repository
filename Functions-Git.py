@@ -79,3 +79,22 @@ def print_multiple_times(string, times):
         print(string)
 
 print_multiple_times('Hey there Computer Scientist', 7777777777777)
+
+
+
+#4.16.4: Enter Name & Age Usig The Try & Except Rule
+#Quentin Sander
+#4.20.19
+
+name = input('Enter Name:')
+
+age = -1
+
+try:
+    age = int(input('Enter Your Age:'))
+
+except ValueError:
+    print('\n''That was not an integer for your age')
+
+print('\n''Name:', name)
+print('Age:', age)
