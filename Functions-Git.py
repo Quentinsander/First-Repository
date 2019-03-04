@@ -79,3 +79,14 @@ def print_multiple_times(string, times):
         print(string)
 
 print_multiple_times('Hey there Computer Scientist', 7777777777777)
+
+
+#4.16.3: Enter a Number using try & Exept
+#Quentin Sander
+#2.20.19
+
+try:
+    my_num = int(input('Enter an integer: '))
+    print('Your number:', my_num)
+except ValueError:
+    print('\n''That was not an integer, (: ')
