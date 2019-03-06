@@ -110,6 +110,7 @@ print('\n''Name:', name)
 print('Age:', age)
 
 
+
 # Quentin Sander
 # 1.14.19
 
@@ -128,3 +129,14 @@ while guess != my_number:
 
 print("")
 print ("Good jod, you got it!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+
+#program tracing
+
+x = 20
+
+while x > 5:
+    print(x)
+    x = x - 2
+
+
+
